@@ -8,7 +8,7 @@ example usage:
 import me.kmatias.DiscordAPI;
 import me.kmatias.embeds.Embed;
 
-public class test {
+public class Test {
 
     public static void main(String[] args) {
         DiscordAPI api = new DiscordAPI("Your webhooks URL");
