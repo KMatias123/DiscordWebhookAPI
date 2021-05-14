@@ -35,6 +35,7 @@ public class APIRequest {
     @SerializedName("content")
     private String message;
 
-    @Setter @Getter
+    @Setter
+    @Getter
     private ArrayList<Embed> embeds = new ArrayList<>();
 }

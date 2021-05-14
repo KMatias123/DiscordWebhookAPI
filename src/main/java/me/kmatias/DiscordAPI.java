@@ -14,9 +14,15 @@ import java.net.URL;
  */
 public class DiscordAPI {
 
+    /**
+     * The url that the request will be posted to, defined when creating the object of this class
+     */
     @Getter
     private final String webhookURL;
 
+    /**
+     * The request, this is where set what it says
+     */
     @Getter
     private final APIRequest webhookRequest = new APIRequest();
 
